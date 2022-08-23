@@ -33,13 +33,3 @@
    ```make build```
 
    ```make play```
-
-
-
-
-
-
-
-
-
-# Optimized-Wordle-Generator-and-Solver
