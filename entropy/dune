@@ -1,0 +1,4 @@
+(library
+ (name entropy)
+ (public_name Entropy)
+ (libraries Wordle ANSITerminal))

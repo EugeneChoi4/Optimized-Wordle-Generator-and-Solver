@@ -1,0 +1,4 @@
+(library
+ (name gamemode)
+ (public_name Gamemode)
+ (libraries ANSITerminal progress Wordle))

@@ -1,0 +1,7 @@
+_build/*
+.DS_Store
+*.zip
+.gitignore
+expectations.md
+proposal.md
+.git/*

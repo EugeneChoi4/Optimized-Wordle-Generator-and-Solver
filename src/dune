@@ -1,0 +1,4 @@
+(library
+ (name wordle)
+ (public_name Wordle)
+ (libraries ANSITerminal))

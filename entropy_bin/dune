@@ -1,0 +1,3 @@
+(executable
+ (name entropy_main)
+ (libraries Entropy Wordle ANSITerminal Gamemode))

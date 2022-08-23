@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries entropy wordle ounit2))
