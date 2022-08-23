@@ -1,8 +1,8 @@
 type t
 (** The abstract type of a wordle game. *)
 
-val ascii3110dle : string
-(**[ascii3110dle] is the headline ascii text*)
+val asciiwordle : string
+(**[asciiwordle] is the headline ascii text*)
 
 val final_word : t -> string
 (** [final_word a] is the answer for the wordle in game [a]. *)

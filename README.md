@@ -1,13 +1,13 @@
-## 3110dle
+## Optimized Wordle Generator and Solver
 
 ```
- ______     ____       ____     ______   ______   __       ______      
-/_____/\   /___/\     /___/\   /_____/\ /_____/\ /_/\     /_____/\     
-\:::_:\ \  \_::\ \    \_::\ \  \:::_ \ \\:::_ \ \\:\ \    \::::_\/_    
-   /_\:\ \   \::\ \     \::\ \  \:\ \ \ \\:\ \ \ \\:\ \    \:\/___/\   
-   \::_:\ \  _\: \ \__  _\: \ \__\:\ \ \ \\:\ \ \ \\:\ \____\::___\/_  
-   /___\:\ '/__\: \__/\/__\: \__/\\:\_\ \ \\:\/.:| |\:\/___/\\:\____/\ 
-   \______/ \________\/\________\/ \_____\/ \____/_/ \_____\/ \_____\/ 
+ __          ______  _____  _____  _      ______ 
+ \ \        / / __ \|  __ \|  __ \| |    |  ____|
+  \ \  /\  / / |  | | |__) | |  | | |    | |__   
+   \ \/  \/ /| |  | |  _  /| |  | | |    |  __|  
+    \  /\  / | |__| | | \ \| |__| | |____| |____ 
+     \/  \/   \____/|_|  \_\_____/|______|______|
+                                                 
 ```
 
 Wordle gives players six chances to guess a randomly selected five-letter word. As shown above, if you have the right letter in the right spot, it shows up green. A correct letter in the wrong spot shows up yellow. A letter that isn't in the word in *any* spot shows up gray (Cnet.com).
@@ -18,7 +18,7 @@ Wordle gives players six chances to guess a randomly selected five-letter word. 
 
 2. Create a new opam environment
 
-   ```opam switch create 3110dle ocaml-base-compiler.4.12.0```
+   ```opam switch create wordle ocaml-base-compiler.4.12.0```
 
 3. Install the required packages
 

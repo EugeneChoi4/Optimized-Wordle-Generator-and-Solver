@@ -1,6 +1,6 @@
-## 3110dle                                                                                                                                                    
+## Optimized Wordle Generator and Solver                                                                                                                                                    
 
-This document gives the instructions to install and play our project, 3110dle 
+This document gives the instructions to install and interact with this project.
 
 ### Installation Instructions (Linux, Mac OS X, and Windows)
 
@@ -8,7 +8,7 @@ This document gives the instructions to install and play our project, 3110dle
 
 2. Create a new opam environment
 
-   ```opam switch create 3110dle ocaml-base-compiler.4.12.0```
+   ```opam switch create wordle ocaml-base-compiler.4.12.0```
 
 3. Install the required packages
 

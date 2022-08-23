@@ -4,9 +4,9 @@ open Game
 
 let rec play () =
   ignore (Eval.clear 0);
-  print_endline Game.ascii3110dle;
+  print_endline Game.asciiwordle;
   ANSITerminal.print_string [ ANSITerminal.red ]
-    "\n\nWelcome to the 3110dle, the Ocaml version of Wordle.\n";
+    "\n\nWelcome to the the optimized wordle generator and solver.\n";
   print_endline
     "\n\n\
     \ Make a selection: \n\

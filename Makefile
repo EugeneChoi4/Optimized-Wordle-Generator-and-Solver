@@ -19,12 +19,12 @@ script:
 	OCAMLRUNPARAM=b dune exec scripts/to_json.exe
 
 zip:
-	rm -f 3110dle.zip
-	zip -r 3110dle.zip . -x@exclude.lst
+	rm -f wordle.zip
+	zip -r wordle.zip . -x@exclude.lst
 
 clean:
 	dune clean
-	rm -f 3110dle.zip
+	rm -f wordle.zip
 
 docs:
 	dune build @doc
@@ -33,6 +33,6 @@ docs:
 
 count:
 	dune clean
-	rm -f 3110dle.zip
+	rm -f wordle.zip
 	cloc --by-file --include-lang=OCaml .
 	dune build
